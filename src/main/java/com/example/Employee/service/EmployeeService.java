@@ -20,7 +20,7 @@ public class EmployeeService {
         employeeRepository.save(employee);
     }
 
-    public Optional<Employee> getEmpList( Long empId) {
+    public Optional<Employee> getEmpList(Long empId) {
 
     return employeeRepository.findById(empId);
 
